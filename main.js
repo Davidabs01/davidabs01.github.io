@@ -3,7 +3,7 @@ const myImage = document.querySelector("img");
 myImage.addEventListener("click", () => {
   const mySrc = myImage.getAttribute("src");
   if (mySrc === "chrome://branding/content/about-logo@2x.png") {
-    myImage.setAttribute("src", "image/www.jpg");
+    myImage.setAttribute("src", "www.jpg");
   } else {
     myImage.setAttribute("src", "chrome://branding/content/about-logo@2x.png");
   }
