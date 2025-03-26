@@ -62,9 +62,8 @@ html {
     max-width: 100%;
   }  
 
- li {
+ol {
   display: flex;
-  list-style-type: none;
-  padding: 0;
+  gap: 50px;
 }
  
