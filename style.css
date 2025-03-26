@@ -62,7 +62,7 @@ html {
     max-width: 100%;
   }  
 
- ol {
+ li {
   display: flex;
   list-style-type: none;
   padding: 0;
